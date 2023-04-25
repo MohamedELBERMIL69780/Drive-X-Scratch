@@ -14,9 +14,9 @@
 <body>
 
 
-    <!-- Mise en place de la barre de navigation via un includes -->
+    <!-- Mise en place de la barre de navigation via un require_once -->
     <?php
-    include('./commun/header.php')
+    require_once('./commun/header.php')
 
     ?>
     <div class="container">
@@ -158,21 +158,10 @@
 
     </div>
 
-    <footer class="bg-dark p-5 fixed text-white text-center mt-5">
-
-        <p class="font-weight-bold">Amar2050</p>
-
-        <div class="d-flex justify-content-center">
-            <i class="fab fa-github fa-2x mx-3"></i>
-            <i class="fab fa-linkedin fa-2x mx-3"></i>
-            <i class="fab fa-youtube fa-2x mx-3"></i>
-            <i class="fab fa-instagram fa-2x mx-3"></i>
-            <i class="fab fa-snapchat fa-2x mx-3"></i>
-            <i class="fab fa-twitter fa-2x mx-3"></i>
-            <i class="fab fa-facebook fa-2x mx-3"></i>
-            <i class="fab fa-whatsapp fa-2x mx-3"></i>
-        </div>
-    </footer>
+    <!-- Mise en place du Footer via un require_once -->
+   <?php
+    require_once('./commun/footer.php')
+   ?>
 
 </body>
 

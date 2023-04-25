@@ -14,7 +14,7 @@
 <body>
 
     <?php
-    include('./commun/header.php')
+    require_once('./commun/header.php')
 
     ?>
 
@@ -302,7 +302,7 @@
     </div>
 
     <?php
-        include('./commun/footer.php')
+        require_once('./commun/footer.php')
     ?>
 
 </body>
